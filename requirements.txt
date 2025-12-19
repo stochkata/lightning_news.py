@@ -1,0 +1,6 @@
+Flask
+requests
+qrcode[pil]
+Pillow
+gunicorn
+coincurve
