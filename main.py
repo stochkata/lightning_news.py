@@ -307,7 +307,7 @@ button:hover {
                         <p><b>Сканирай QR за плащане:</b></p>
                         <img src="data:image/png;base64,${data.qr}" width="200"><br>
                             <a 
-                            href="lightning:{{ invoice }}"
+                            href="lightning:${data.pr}"
                             class="ln-button"
                             >
                             ⚡ Отвори с Lightning wallet
